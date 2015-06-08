@@ -21,6 +21,17 @@
 			</div>
 
 			<div class="widget">
+				<h3>L’endettement des villes françaises</h3>
+
+				<p>Sur la base des comptes des communes, le Journal du Net a créé un <a href="http://www.journaldunet.com/business/budget-ville">explorateur</a> de la dette des villes.</p>
+
+				<form action="http://www.journaldunet.com/business/budget-ville/recherche#index" method="get" target="debt">
+					Suivez l’évolution de la dette pour votre
+					<label for="city">ville</label>&nbsp;:
+					<input name="requete" id="city" type="text" placeholder="75000"></input>
+					<input type="submit" value="Chercher"></input>
+				</form>
+				<iframe name="debt" src="http://www.journaldunet.com/business/budget-ville/paris/ville-75056#index"></iframe>
 			</div>
 
 			<div class="followup">

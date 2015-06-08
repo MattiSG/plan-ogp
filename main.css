@@ -11,6 +11,18 @@ h1 {
 
 article {
 	max-width: 60em;
-	margin: auto;
 	border-bottom: 1px solid #333;
+}
+
+article, iframe {
+	margin: auto;
+}
+
+iframe {
+	width: 100%;
+}
+
+iframe[name="debt"] {
+	width: 40em;
+	height: 19em;
 }
