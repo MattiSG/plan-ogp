@@ -1,0 +1,16 @@
+body {
+	font-family: "Helvetica Neue";
+	background-color: #EEE;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 200;
+	margin: 2em 0;
+}
+
+article {
+	max-width: 60em;
+	margin: auto;
+	border-bottom: 1px solid #333;
+}
