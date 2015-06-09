@@ -26,3 +26,8 @@ iframe[name="debt"] {
 	width: 40em;
 	height: 19em;
 }
+
+footer {
+	text-align: center;
+	font-style: italic;
+}
